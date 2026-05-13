@@ -8,9 +8,9 @@ This repository contains the core implementation of a physics-driven framework f
 
 ## Core Features
 
-* **Omnidirectional Image Acquisition:** Isolates the egg in 15°C ultra-pure water and employs a motorized camera system for 360° recording, capturing sequential frames at precise 0.5° angular increments.
-* **Optimal Projection Selection:** Extracts binary segmentation masks to calculate pixel-wise projected areas, identifying the frame with the maximum projected area (with cross-validation for morphological consistency).
-* **Angle Computation:** Utilizes SAM2 for precise segmentation. It fits an optimal contour model to the target using PCA initialization and Non-linear Least Squares (NLS) fitting to compute the acute tilt angle against a defined true horizontal plane.
+Step1 **Omnidirectional Image Acquisition:** Isolates the egg in 15°C ultra-pure water and employs a motorized camera system for 360° recording, capturing sequential frames at precise 0.5° angular increments.
+Step2 **Optimal Projection Selection:** Extracts binary segmentation masks to calculate pixel-wise projected areas, identifying the frame with the maximum projected area (with cross-validation for morphological consistency).
+Step3 **Angle Computation:** Utilizes SAM2 for precise segmentation. It fits an optimal contour model to the target using PCA initialization and Non-linear Least Squares (NLS) fitting to compute the acute tilt angle against a defined true horizontal plane.
 
 ## Requirements
 

@@ -23,4 +23,4 @@ This repository contains the core implementation of a physics-driven framework f
 Ensure your environment is set up with the required dependencies. The main entry point for the contour extraction and angle calculation pipeline is:
 
 ```bash
-python egg_measure.py
+python3 egg_measure.py <image_path> 

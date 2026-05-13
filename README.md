@@ -4,7 +4,7 @@ This repository contains the core implementation of a physics-driven framework f
 
 ## Workflow
 
-![Workflow](Figure.png)
+<img width="1624" height="823" alt="Figure" src="https://github.com/user-attachments/assets/bb8bf83d-84d7-4de4-86ef-eedd3c4ebc3f" />
 
 ## Core Features
 
@@ -24,9 +24,3 @@ Ensure your environment is set up with the required dependencies. The main entry
 
 ```bash
 python egg_measure.py
-
-
-
-
-
-<img width="1624" height="823" alt="Figure" src="https://github.com/user-attachments/assets/bb8bf83d-84d7-4de4-86ef-eedd3c4ebc3f" />

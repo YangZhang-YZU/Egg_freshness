@@ -15,7 +15,7 @@ This repository contains the core implementation of a physics-driven framework f
 ## Requirements
 
 * Python 3.x
-* SAM2 (Segment Anything Model 2)
+* SAM2 ([Segment Anything Model 2](https://github.com/facebookresearch/sam2))
 * Standard scientific and vision libraries: `numpy`, `scipy`, `opencv-python`
 
 ## Usage
